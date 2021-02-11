@@ -1,0 +1,49 @@
+theme: bento
+languageCode: en-us
+baseurl: https://mogultayomer.netlify.app/
+title: "I am Omer"
+author: "Omer"
+copyright: MIT
+taxonomies:
+  category: categories
+ # disqusShortname: bento-hugo-theme
+ # googleAnalytics: UA-XXXXXX-YY
+  pygmentsCodefences: yes
+  pygmentsStyle: vs
+  tag: tags
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    style: github
+params:
+  authorBio: Bento is a doggo who likes to code. Follow him on <a href='#'>Twitter</a>
+  avatar: images/profile_pic.jpg
+  copyright: Copyright © 2020 Someone
+  cover: images/web_pic2.JPG
+  description: A minimalist theme for Hugo, build with Tailwind CSS.
+  email: email@xxxx.com
+  fathomAnalytics:
+    serverURL: analytics.example.com
+    siteID: XXXXX
+  github: XXXX
+  headline: Websitemi duzenliyorum
+  intro: yes
+  linkedin: linkedin.com/in/omer-mogultay-277b60164
+  ogImage: images/og_image.jpg
+  twitter: XXXX
+  umami:
+    siteID: XXXXX
+    trackerScript: //umami.example.com/umami.js
+menu:
+  main:
+    - name: About
+      url: /about
+      weight: 1
+    - name: Archives
+      url: /archives
+      weight: 1
+    - name: Source code
+      url: https://github.com/leonardofaria/bento
+      weight: 1
