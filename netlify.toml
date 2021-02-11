@@ -1,5 +1,5 @@
 [build]
-command = "hugo -F -b $https://mogultayomer.netlify.app/"
+command = "hugo -F -b $URL"
 publish = "public"
 [build.environment]
 HUGO_VERSION = "0.80.0"
